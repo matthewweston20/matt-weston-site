@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images are stored
+media_folder: images
+public_folder: /images
+
+# Blog posts are stored as a JSON list in data/posts.json
+collections:
+  - name: posts
+    label: Blog Posts
+    label_singular: Post
+    files:
+      - name: all_posts
+        label: All Posts
+        file: data/posts.json
+        fields:
+          - name: posts
+            label: Posts
+            widget: list
+            summary: "{{fields.title}} — {{fields.date}}"
+            fields:
+              - label: Title
+                name: title
+                widget: string
+                hint: The headline for your post
+
+              - label: Slug
+                name: slug
+                widget: string
+                hint: URL-friendly version of the title, e.g. "why-i-started-writing" — no spaces, all lowercase, hyphens only
+                pattern:
+                  - '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+                  - 'Lowercase letters, numbers and hyphens only. No spaces.'
+
+              - label: Date
+                name: date
+                widget: date
+                format: YYYY-MM-DD
+                hint: When this post was published
+
+              - label: Summary
+                name: summary
+                widget: text
+                hint: A one or two sentence description shown in post listings
+
+              - label: Cover Image
+                name: image
+                widget: image
+                required: false
+                hint: Optional. Will show at the top of the post and in the blog listing.
+
+              - label: Content
+                name: content
+                widget: markdown
+                hint: The full post body. Supports bold, italic, links, images, headings and more.

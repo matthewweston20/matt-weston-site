@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "slug": "why-im-starting-to-write",
+      "title": "Why I'm starting to write",
+      "date": "2026-06-05",
+      "summary": "After a decade in digital media, I've decided to write publicly. Here's what I want to explore and why now felt like the right time.",
+      "image": "",
+      "content": "I've spent the last decade helping other people build their audiences. Brands, creators, publishers, all of them trying to reach people who care about what they're making.\n\nAt some point it felt odd that I had never tried to do the same thing for myself.\n\n## What I want to write about\n\nMost of what I know has been learned through doing. Managing teams at scale. Watching platforms rise and collapse. Seeing what separates the brands that last from the ones that don't.\n\nI want to write about the things I've worked out that don't get talked about much. Not theory. Practical observations from inside the industry.\n\nA few recurring themes:\n\n- What good content operations actually look like\n- How to hire for a creative team (and the mistakes I've made doing it)\n- Where digital media is going and what it means for people building in it\n- The platform shifts that matter versus the ones that don't\n\n## Why now\n\nInvisible Media is at an interesting moment. We've just announced investment from Goalhanger, and we're building something with real momentum. Writing is a way to think through what that means, and to connect with people doing similar things.\n\nOne post, every week. Let's see how it goes."
+    },
+    {
+      "slug": "what-i-look-for-when-hiring-creative-teams",
+      "title": "What I look for when hiring creative teams",
+      "date": "2026-05-29",
+      "summary": "I've hired over 30 people in digital media. Most interviews tell you almost nothing useful. Here's what I've learned to look for instead.",
+      "image": "",
+      "content": "Most hiring processes in media are designed to filter out people, not find the right ones. You end up assessing how someone interviews, not how they'll actually perform.\n\nI've made this mistake plenty of times. After 30+ hires across different companies, I've worked out a few things that actually predict performance.\n\n## Curiosity over credentials\n\nThe best social editors I've worked with had an almost compulsive interest in why things perform. Not just what the numbers were, but what they meant. They'd come in talking about a video they'd seen that did unexpectedly well, and they'd have a theory about it.\n\nYou can't teach that instinct. You can teach editing. You can teach the platforms. You can't teach someone to find the work genuinely interesting.\n\n## How they talk about failure\n\nI always ask people about something that didn't work. Not to catch them out, but because how someone answers tells you a lot. The ones who give vague, blame-diffuse answers usually have the same relationship with failure in the job. The ones who are specific and honest, who say 'we tried this, it failed because of X, and here's what I'd do differently,' are usually the ones who learn fast.\n\n## Comfort with ambiguity\n\nDigital media moves constantly. The brief changes. The platform changes. The metric you were chasing last quarter doesn't matter anymore. People who need structure and certainty struggle. People who find the instability energising tend to thrive.\n\nThis is hard to assess in an interview. The best proxy I've found is asking about a time they had to make a decision without enough information. What did they do, and how did they feel about it?\n\n## The people I'm most proud of hiring\n\nI've had people go on to senior roles at The Diary of a CEO, MrBeast and the High Performance Podcast. None of them were the most polished candidates on paper. They were the most curious, most honest and most comfortable with change.\n\nThat's still what I look for."
+    }
+  ]
+}
